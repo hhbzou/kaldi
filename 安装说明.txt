@@ -1,0 +1,9 @@
+cd tools
+cat INSTALL
+如果make错误， 手动下载相关错误的文件
+make -j8
+
+cd ../src
+cat INSTALL
+可能会报错无法下载port_audio, 按照提示手动下载后放入../tools 下
+
