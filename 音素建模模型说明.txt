@@ -11,8 +11,15 @@ cat INSTALL
 
 构建嗨小问音素建模模型:
 参考mobvoi/v1:
+0- 制作数据: 这一步最重要:
+  新建dataset文件夹,新建eval/train/test/download子文件夹. 其中download中包含所有音频数据.另外三个文件夹中,包含text、wav.scp、utt2spk,均可以参考以下命令生成
+  awk '{print $1" FREETEXT"}' train-wav-txt > train-text
+  awk '{print $1" "$1}' train-wav-txt > train-utt2spk
+
 1- 下载rirs_noises.zip 至v1文件夹
 2- 下载musan数据集,并修改stage8 中的步骤
 3- 
+4- 
+5- 
 
 
