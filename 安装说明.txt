@@ -9,4 +9,10 @@ cat INSTALL
 可在无CUDA的服务器上安装
 
 
+构建嗨小问音素建模模型:
+参考mobvoi/v1:
+1- 下载rirs_noises.zip 至v1文件夹
+2- 下载musan数据集,并修改stage8 中的步骤
+3- 
+
 
